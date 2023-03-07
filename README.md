@@ -42,11 +42,11 @@ To complete the tests in this lab, you will need to add the following styles. If
 }
 ```
 
-- [ ] Set all paragraph text to have a font of `sans-serif`.
-- [ ] Set all heading text to have a font of `serif`.
-- [ ] Set all heading text to be centered.
-- [ ] Set all anchor elements to have no text decoration.
-- [ ] Set all anchor elements to have a color of `#4242EA`.
+- [x] Set all paragraph text to have a font of `sans-serif`.
+- [x ] Set all heading text to have a font of `serif`.
+- [x ] Set all heading text to be centered.
+- [ x] Set all anchor elements to have no text decoration.
+- [ x] Set all anchor elements to have a color of `#4242EA`.
 - [ ] Set all unordered lists to have no list-style.
 - [ ] Set all `span` elements inside the footer to have a `font-weight` of `700`.
 - [ ] Set all paragraph text inside the element with the class of `weather` to have a font size of `40px`.
