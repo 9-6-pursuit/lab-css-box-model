@@ -1,0 +1,152 @@
+p {
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #4242EA;
+}
+
+ul {
+    list-style: none;
+}
+
+
+footer span {
+    font-weight: 700;  
+    
+}
+
+.weather p {
+    font-size: 40px;
+}
+
+.weather {
+    width: 300px;
+    border: 2px solid gray;
+
+}
+
+.above-the-fold article {
+    display: inline-block;
+}
+
+.breaking-news {
+    padding: 0 30px;
+
+}
+
+.breaking-news img {
+    width: 200px;
+
+
+}
+
+.click-bait article {
+    width: 250px;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+.below-the-fold img {
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    width: 200px;
+}
+
+.below-the-fold div {
+    width: 500px;
+}
+
+/* code below are to make the page look the same in the image */
+
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+
+}
+
+.above-the-fold {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.weather {
+    text-align: center;
+    width: 300px;
+    border: 2px solid gray;
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+.breaking-news {
+    width: 70%;
+    text-align: center;
+}
+
+.breaking-news img {
+    width: 200px;
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+
+.click-bait {
+    display: flex;
+    justify-content: space-around;
+}
+
+.click-bait article {
+    display: inline-block;
+    align-self: center;
+}
+
+.below-the-fold {
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+}
+
+.below-the-fold article {
+    display: flex;
+    justify-content: center;
+}
+
+.below-the-fold img {
+    display: inline-block;
+    width: 200px;
+}
+
+.below-the-fold div {
+    display: block;
+    width: 70%;
+    align-self: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+} 
+
+
